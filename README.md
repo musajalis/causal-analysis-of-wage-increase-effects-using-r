@@ -1,2 +1,4 @@
-# causal-analysis-of-minimum-wage-effects-using-r
-Causal Analysis of Minimum Wage Effects Using R
+# Causal Analysis of Minimum Wage Effects Using R
+This project analyzed the causal effects of minimum wage changes on employment and labor hours using the Card & Krueger (1994) dataset. The dataset was cleaned, transformed, and subsetted in R using packages such as dplyr, tidyr, magrittr, and readstata13 to enable year- and state-specific analyses. Descriptive statistics were calculated for full-time equivalent hours (fte) and employment (empft), highlighting differences between states before and after the minimum wage increase. These insights provided a clear overview of labor market trends and variations across states and time.
+
+To assess the impact of the policy change, difference-in-differences (DiD) regression models were implemented in R, incorporating interaction terms (year * state) to isolate the causal effect of the minimum wage on both fte and employment. The regression analysis revealed nuanced effects of minimum wage increases on labor outcomes. This project showcases expertise in R programming, linear modeling, statistical analysis, and causal inference methodology.
